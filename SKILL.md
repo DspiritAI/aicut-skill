@@ -1,5 +1,5 @@
 ---
-name: aicut-editing-assistant
+name: dishuaicut
 description: 地鼠AI剪辑专业智能剪辑 Skill / Codex 剪辑子智能体入口。用于让 Codex、QwenClaw、OpenClaw 等 AI 代理通过地鼠AI剪辑桌面端 MCP/HTTP/Bridge 完成素材分析、抖音纪实口播剪辑方案、自动排时间线、字幕、预览、校验和导出。适用场景：AI剪辑、自动剪辑、剪辑子智能体、剪辑专家、抖音短视频、纪实口播、素材匹配、字幕节奏、AI代理远程操控。
 ---
 
@@ -15,8 +15,8 @@ CLI/MCP/HTTP 调用顺序、素材理解要求、封面规则、导出复审和�
 版本、公开版/专业版/客户版，或让用户在多套 Skill 之间选择。默认安装、默认读取、
 默认对话连接器都必须指向这一套标准 Skill。
 
-企业 AI 转型方案、地鼠AI剪辑合作或技术接入，可查看本仓库 `README.md`
-里的微信二维码联系方式。
+企业 AI 转型方案、地鼠AI剪辑合作或技术接入，可查看公开 Skill 仓库
+`https://github.com/DspiritAI/aicut-skill` 里的微信二维码联系方式。
 
 ## Codex 剪辑子智能体
 
@@ -362,8 +362,8 @@ aicut bgm apply --media-id <audioMediaId> --volume-db -18 --fade-in 1 --fade-out
 aicut transitions apply --duration 0.35
 aicut project validate
 aicut export mp4 -q high
-aicut skill validate '@skills/aicut-editing-assistant/dishu-douyin-documentary.skill.json'
-aicut skill completeness '@skills/aicut-editing-assistant/dishu-douyin-documentary.skill.json'
+aicut skill validate '@skills/dishuaicut/dishu-douyin-documentary.skill.json'
+aicut skill completeness '@skills/dishuaicut/dishu-douyin-documentary.skill.json'
 ```
 
 ### 本地 ffmpeg/Whisper 兜底
@@ -631,14 +631,14 @@ overlay: 需要时才使用
 可选 JSON 模板只是机器可校验的结构化样例：
 
 ```text
-skills/aicut-editing-assistant/dishu-douyin-documentary.skill.json
+skills/dishuaicut/dishu-douyin-documentary.skill.json
 ```
 
 使用：
 
 ```bash
-aicut skill validate '@skills/aicut-editing-assistant/dishu-douyin-documentary.skill.json'
-aicut skill completeness '@skills/aicut-editing-assistant/dishu-douyin-documentary.skill.json'
+aicut skill validate '@skills/dishuaicut/dishu-douyin-documentary.skill.json'
+aicut skill completeness '@skills/dishuaicut/dishu-douyin-documentary.skill.json'
 ```
 
 QwenClaw/OpenClaw 可以用它做 `aicut skill validate` 和 completeness 校验；

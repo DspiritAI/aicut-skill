@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-clawhub install aicut-editing-assistant
+clawhub install dishuaicut
 ```
 
 或者把本仓库作为 Skill 源安装到支持 GitHub Skill 的 AI Agent。
