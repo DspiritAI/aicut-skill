@@ -4,11 +4,13 @@
 
 ## 安装
 
+ClawHub/SkillHub 的目标安装名是 `dishuaicut`：
+
 ```bash
 clawhub install dishuaicut
 ```
 
-或者把本仓库作为 Skill 源安装到支持 GitHub Skill 的 AI Agent。
+如果 ClawHub 新 slug 还在等待平台审核或账号发布限制解除，可以先把本仓库作为 Skill 源安装到支持 GitHub/CNB/Gitee Skill 的 AI Agent。旧的 `aicut-editing-assistant` 仅作为历史兼容入口保留。
 
 ## 文件
 
