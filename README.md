@@ -30,3 +30,9 @@ App 运行 + 本地接口可访问 = AI 能实际控制地鼠AI剪辑
 ## 标准原则
 
 地鼠AI剪辑对外只维护这一套标准 Skill。旧的封面 Skill、训练 Skill 和 JSON 下载入口不再作为独立 Skill 发布。
+
+## 联系方式
+
+企业 AI 转型方案、地鼠AI剪辑合作和技术接入，可以扫码添加地鼠微信：
+
+![地鼠微信联系方式](assets/contact-wechat.jpg)

@@ -8,6 +8,10 @@ This public Skill is intended as the AI-facing protocol and workflow package. Th
 ## Publisher: <br>
 地鼠精灵 / Dishu AI <br>
 
+## Contact: <br>
+企业 AI 转型方案、地鼠AI剪辑合作和技术接入，可扫码添加地鼠微信：<br>
+[微信二维码](https://raw.githubusercontent.com/DspiritAI/aicut-skill/main/assets/contact-wechat.jpg) <br>
+
 ### License/Terms of Use: <br>
 Public Skill instructions for AI-agent interoperability. Product code, trademarks, customer materials, and private credentials remain reserved by their respective owners. <br>
 
@@ -32,6 +36,7 @@ Mitigation: Run export validation, audio checks, preview-frame review, and human
 - [Editing examples](examples.md) <br>
 - [Detailed reference](reference.md) <br>
 - [Documentary editing JSON template](dishu-douyin-documentary.skill.json) <br>
+- [Contact QR code](https://raw.githubusercontent.com/DspiritAI/aicut-skill/main/assets/contact-wechat.jpg) <br>
 
 ## Skill Output: <br>
 **Output Type(s):** [markdown, json, shell commands, MCP calls, HTTP calls, timeline plans, review reports] <br>
